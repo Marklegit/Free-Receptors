@@ -1,0 +1,695 @@
+/* Homepage START*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+html{
+	font-size: 16px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#Layer_1{
+    width: 50%;
+    /*box-shadow: 10px 2px 1px 1px #d6d6d6;*/
+}
+header{
+    text-align: center;
+    border-bottom: 1px solid #c1c1c1;
+}
+/*#logo{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: greenyellow;
+    text-align: center;
+}*/
+label{
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #66c4a6;
+    width: 30px;
+}
+#toggle{
+    display: none;
+}
+#toggle:checked + .menu{
+    display: block;
+}
+.menu{
+    display: none;
+}
+.navbar_1{
+    /*background-image: linear-gradient(#2BC0ED, #166077);*/
+    padding: 0px;
+}
+.navbar_1 li{
+	text-align: center;
+	/*border-bottom: 1px #707070 solid;*/
+	/*border-bottom: 2px #00a99d dotted;*/
+    padding: 20px 0px;
+    border-bottom: 1px solid white;
+    list-style: none;
+    background-color: /*#674787*/ #66c4a6;
+}
+.navbar_1 li a{
+	text-decoration: none;
+	color: /*#52f9c4*/ white;
+	font-size: 1rem;
+    padding: 10px;
+    font-family: 'Armata', sans-serif;
+}
+.navbar_1 li a:hover{
+	color: black;/*#707070*/;
+    transition: 0.5s ease;
+}
+#active{
+	color: #394c25;
+}
+h1{
+	/*background-color: #00a99d;*/
+	font-size: 1.3rem;
+	/*color: white;*/
+    padding: 10px 10px;
+    font-family: 'Armata', sans-serif;
+}
+h2{
+    font-size: 1.2rem;
+    font-family: 'Armata', sans-serif;
+    padding: 10px 0px;
+    color: #43846f;
+}
+h3{
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 30px 0px;
+    font-family: 'Armata', sans-serif;
+    color: #674787;
+}
+h4{
+    
+}
+.banner{
+    width: 100%;
+    display: block;
+    margin: 0px auto 10px;
+}
+.section_1, .section_2, .section_3, .section_4{
+    padding: 10px;
+    margin: 0px 0px 10px 0px;
+    box-shadow: 10px 2px 1px 1px #d6d6d6;
+}
+.description{
+   
+}
+.learn_more{
+    color: royalblue;
+    text-decoration: none;
+}
+.learn_more:hover{
+    text-decoration: underline;
+}
+.secondary_content{
+    margin: auto;
+}
+.events{
+    text-align: center;
+    font-family: 'Armata', sans-serif;
+    font-size: 1.1rem;
+    margin: 30px 0px;
+    padding-top: 10px;
+    border-top: 1px solid #d8d8d8;
+}
+table{
+    margin: 10px auto;
+    padding: 10px;
+    box-shadow: 2px 2px 4px 1px #d6d6d6;
+}
+table th{
+    font-family: 'Armata', sans-serif;
+}
+table td{
+    padding: 10px;
+    border: 1px solid #c9c9c9;
+}
+table td a{
+    color: royalblue;
+    text-decoration: none;
+}
+table td a:hover{
+    text-decoration: underline;
+}
+.disclaimer{
+    text-align: center;
+    padding: 10px;
+}
+.disclaimer span{
+    color: red;
+}
+/* Homepage END*/
+
+/* About html START*/
+
+.about_us{
+    margin: 0px 0px 30px 0px;
+    padding: 0px 10px;
+    box-shadow: 10px 2px 10px 1px #d6d6d6;
+}
+.about_us p{
+    padding: 0px 0px 10px 0px;
+}
+
+.about_us_title{
+    margin: 0px;
+    padding: 10px 0px;
+    font-size: 1.5rem;
+}
+p a{
+    color: royalblue;
+    text-decoration: none;
+}
+p a:hover{
+    text-decoration: underline;
+}
+.our_concept{
+    padding: 0px 0px 100px 0px;
+}
+.our_concept p{
+    padding: 0px 10px 10px;
+}
+.our_concept img{
+    width: 60%;
+    margin: 10px;
+    padding: 0px;
+    box-shadow: 1px 10px 10px 1px #d6d6d6;
+}
+.logos_set_2{
+    float: right;
+}
+/* About html END*/
+
+/* Opioid START */
+
+.opioid_title{
+	color: white;
+	text-align: center;
+	font-size: 1.6rem;
+    padding: 5px;
+}
+.opioid_banner img{
+    padding: 5px;
+    margin: 0px;
+    width: 50px;
+}
+.opioid{
+	
+}
+.opioid_title_style{
+    background-color: #48917a;
+    color: white;
+}
+.opioid_info{
+	background-color: white;
+	padding: 10px;
+}
+.opioid_types{
+   
+}
+.opioid_types li{
+    margin: 10px 0px;
+    padding: 20px;
+    border: 1px hotpink solid;
+}
+.opioid_info li{
+    list-style: none;
+}
+.opioid_list_1, .opioid_list_2, .opioid_list_3{
+    padding: 0px 10px;
+    margin: 0px 0px;
+}
+.opioid_list_1 li, .opioid_list_2 li, .opioid_list_3 li{
+    padding: 10px;
+    margin: 10px 0px;
+    
+}
+.opioid_list_1 li a, .opioid_list_2 li a, .opioid_list_3 li a{
+    color: royalblue;
+    text-decoration: none;
+}
+.opioid_list_1 li a:hover, .opioid_list_2 li a:hover, .opioid_list_3 li a:hover{
+    text-decoration: underline;
+}
+.addiction_work p{
+    padding: 10px 0px;
+}
+.naloxone_list{
+    
+}
+.naloxone_list li{
+    padding: 10px 10px;
+    margin: 10px 0px;
+}
+.research_sources{
+	text-align: center;
+    margin: 30px 0px;
+}
+.research_sources p{
+	padding: 10px;
+}
+.research_sources ul{
+	
+}
+.research_sources ul li{
+	margin: 10px;
+    padding: 5px;
+}
+.research_sources ul li a{
+	text-decoration: none;
+	color: #2F69AD;
+}
+.research_sources ul li a:hover{
+	text-decoration: underline;
+}
+
+/* Opioid END*/
+
+/* addiction */
+.addiction_content{
+    padding: 10px 0px;
+    margin-bottom: 50px;
+}
+.addiction_content h1{
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 0;
+}
+.addiction_content p{
+    margin: 0px 10px;
+    padding: 10px 0px;
+}
+.addiction_symptoms p{
+    padding: 10px;
+}
+/* Addiction END */
+
+/* Rehabilitation START */
+.rehab{
+    padding: 0px 10px 30px 10px;
+}
+.rehab h1{
+    padding: 10px 0px;
+    margin: 0px;
+    font-size: 1.5em;
+}
+.rehab p{
+    padding: 10px 0px;
+}
+.rehab a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: royalblue;
+}
+.rehab a:hover{
+    text-decoration: underline;
+}
+.rehab_process_overview{
+   
+}
+.rehab_process_overview h2{
+    padding: 10px 10px;
+}
+.rehab_process_overview p{
+    padding: 0px 10px;
+}
+.loved_one{
+    animation-name: loved_one;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+@keyframes loved_one{
+    0%{
+        color: hotpink;
+    }
+    50%{
+        color: palevioletred;
+    }
+    100%{
+        color: deeppink;
+    }
+}
+.rehab_help{
+    display: block;
+    text-align: center;
+}
+.rehab_set_1, .rehab_set_2, .rehab_set_3, .rehab_set_4{
+    margin: 20px 0px;
+    padding: 10px;
+    box-shadow: 10px 2px 10px 1px #d6d6d6;
+}
+
+.rehab_set_1:hover{
+    /*transform: translateX(10px);*/
+}
+.rehab_set_2:hover{
+    /*transform: translateX(10px);*/
+}
+.rehab_set_3:hover{
+    /*transform: translateX(10px);*/
+}
+.rehab_set_4:hover{
+    /*transform: translateX(10px);*/
+}
+
+/* Rehabilitation END*/
+
+/* Contact START */
+.form_layout{
+    background-color: #b0e5de;
+    padding: 50px 0px;
+}
+.form_title{
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+    font-size: 2rem;
+}
+form{
+    padding: 30px;
+    background-color: white;
+}
+form .message{
+    padding: 20px 20px;
+}
+fieldset{
+    border: 1px solid;
+    padding: 10px;
+}
+legend{
+    
+}
+input{
+    font-size: 1rem;
+    margin: 10px 0px;
+    padding: 4px 0px;
+    width: 100%;
+    background-color: #efefef;
+}    
+input[type=submit]{
+    background-color: #403168;
+    color: white;
+    cursor: pointer;
+    padding: 20px 0px;
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+input[type=submit]:hover{
+    transition: 1s ease;
+    background-color: #6c52af;
+}
+input::placeholder{
+    padding: 0px 4px;
+}
+textarea{
+    border: 1px solid;
+    margin: 10px 0px;
+    width: 100%;
+    font-size: 0.8rem;
+}
+/* contact END */
+
+
+/* Univeral footer START*/
+footer{
+	background-color: /*#105160*/#674787;
+	padding: 0px;
+	text-align: center;
+}
+footer .FAQs_title{
+	color: white;
+	padding: 10px 0px;
+    font-size: 1.4rem;
+}
+footer a{
+	display: block;
+	color: #60ffcb;
+	margin: 0px 0px;
+    padding: 10px 0px;
+	text-decoration: none;
+}
+footer a:hover{
+	text-decoration: underline;
+}
+#copyright_MG{
+	margin-top: 10px;
+    padding: 10px 0px;
+    color: white;
+    font-size: 1rem;
+}
+/* Univeral footer END*/
+
+
+/* DESKTOP */
+@media only screen and (min-width: 1024px){
+    html{
+        font-size: 16px;
+    }
+    body{
+        
+    }
+    #logo{
+        font-size: 1.8rem;
+    }
+    header{
+        border-bottom: 1px solid #d8d8d8;
+    }
+    h3{
+      
+    }
+    #Layer_1{
+        width: 300px;
+        /*box-shadow: 10px 2px 1px 1px #d6d6d6;*/
+    }
+    label{
+        display: none;
+    }
+    .menu{
+    display: block;
+    }
+    .navbar_1{
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+	.navbar_1 li{
+		display: inline-block;
+        border: none;
+        margin: 0px 10px;
+        padding: 10px 0px;
+        align-items: center;
+	}
+	.navbar_1 li a{
+        
+	}
+    .main_content{
+        width: 1000px;
+        margin: auto;
+    }
+    .main_content::after{
+        display: table;
+        content: "";
+        clear: both;
+    }
+    .banner{
+        width: 1000px;
+        margin: auto;
+    }
+    .section_1, .section_2, .section_3, .section_4{
+        height: 200px;
+        width: 210px;
+        padding: 10px 10px;
+        margin: 10px;
+        float: left;
+        box-shadow: 1px 4px 1px 1px #d6d6d6;
+    }
+    /* About html desktop START*/
+    .our_concept img{
+        width: 300px;
+        float: left;
+        margin: 0px 16px;
+        padding: 0px;
+        box-shadow: 1px 10px 10px 1px #d6d6d6;
+    }
+    .our_concept::after{
+        display: table;
+        content: "";
+        clear: both;
+    }
+    .our_concept img:hover{
+        transform: scale(1.4);
+        transition: 0.5s ease;
+    }
+    /* About html desktop END*/
+    
+    /* Opioid html desktop START*/
+    .opioid{
+        background-color: white;
+	}
+	#all_sets{
+
+	}
+	#opioid_title{
+		font-size: 1rem;
+	}
+    .set_3::after{
+        display: table;
+        content: "";
+        clear: both;
+    }
+	.set_1, .set_2, .set_3, .set_4{
+		width: 1000px;
+		background-color: white;
+		margin: 12px auto;
+        box-shadow: 1px 4px 1px 1px #d6d6d6;
+	}
+	.opioid_list_1, .opioid_list_2, .opioid_list_3{
+        float: left;
+		width: 300px;
+        padding: 0px 10px;
+        margin: 0px 3px;
+	}
+	.research_sources{
+		clear: both;
+		background-color: white;
+	}
+    /* Opioid html desktop END */
+    
+    /* contact START */
+    form{
+        width: 800px;
+        margin: auto;
+    }
+    
+    /* contact END*/
+    
+    /*Universal desktop footer*/ 
+    .FAQs{
+        margin: auto;
+        display: table;
+        content: "";
+        clear: both;
+	}
+	.FAQs_left{
+		float: left;
+		width: 500px;
+	}
+	.FAQs_right{
+		float: left;
+		width: 500px;
+	}
+	#copyright_MG{
+		clear: both;
+	}
+    /*desktop footer*/
+}
+
+/* TABLET */
+@media only screen and (min-width: 760px) and (max-width: 1023px) {
+	body{
+        
+	}
+    #logo{
+        font-size: 1.6rem;
+    }
+    header{
+        border-bottom: 1px solid #d8d8d8;
+    }
+    #Layer_1{
+        width: 40%;
+    /*box-shadow: 10px 2px 1px 1px #d6d6d6;*/
+    }
+    label{
+        font-size: 1.8rem;
+        cursor: pointer;
+        color: #66c4a6;
+        width: 30px;
+    }
+    #toggle{
+        display: none;
+    }
+    #toggle:checked + .menu{
+        display: block;
+    }
+    .menu{
+        display: none;
+    }
+    .main_content{
+    }
+    .main_content::after{
+        display: table;
+        content: "";
+        clear: both;
+    }
+    .banner{
+        width: 100%;
+    }
+    .section_1, .section_2, .section_3, .section_4{
+        width: 40%;
+        padding: 3%;
+        margin: 2%;
+        float: left;
+        height: 120px;
+        box-shadow: 1px 4px 1px 1px #d6d6d6;
+    }
+    /*About START*/
+    .our_concept img{
+        width: 40%;
+        float: left;
+        margin: 20px 5%;
+        padding: 0px;
+        box-shadow: 1px 10px 10px 1px #d6d6d6;
+    }
+    .our_concept::after{
+        display: table;
+        content: "";
+        clear: both;
+    }
+    /*About END*/
+    /*Opioid html Tablet START*/
+    .opioid_list_1, .opioid_list_2, .opioid_list_3{
+        float: left;
+		width: 350px;
+        padding: 14px;
+        margin: 0px 0px;
+	}
+    .set_1, .set_2, .set_3, .set_4{
+		background-color: white;
+		margin: auto;
+	}
+    .set_3::after{
+        display: table;
+        content: "";
+        clear: both;
+    }
+	.list_1, .list_2, .list_3{
+		float: left;
+		width: 446px;
+	}
+    /*Opioid html Tablet END*/
+     .FAQs{
+        margin: auto;
+        display: table;
+        content: "";
+        clear: both;
+    }
+    .FAQs_left{
+        float: left;
+    }
+    .FAQs_right{
+        float: left;
+    }
+}
